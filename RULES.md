@@ -55,7 +55,7 @@ Not needed for filling in the page. This is for anyone changing the template its
 - **Inside each item, top to bottom:** title and subtitle (bought/condition on the right) → big price → parts list → note.
 - **Lots of space** between items. No boxes, no dividers between items, no summary table at the end.
 - **Typography:** one sans-serif (Geist), near-black on warm off-white (#F7F7F5). Bold for titles, prices and totals.
-- **Colour** is used for one thing: green means "your price" (tags, badge). Everything else is black and off-white.
+- **Colour** is used for one thing: green means "your price" (tags, badge). Everything else is black and off-white. The browser-tab icon is a small green circle in the same green, built into the page.
 - **Rounded corners:** 6 px on photos and price tags; the discount badge is a full pill.
 
 ### Photos
