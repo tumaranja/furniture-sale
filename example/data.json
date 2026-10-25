@@ -1,0 +1,175 @@
+{
+  "languages": ["en", "es"],
+  "currency": "USD",
+
+  "title": { "en": "Furniture at Maple Street", "es": "Muebles en la calle Maple" },
+  "intro": {
+    "en": "Hi, I'm moving out of this lovely apartment and I'd like to offer some of the furniture to the new tenant. You can get these pieces at a big discount before I put them for sale publicly. If you're interested, please let me know by October 10th 😊", "es": "Hola, me mudo de este precioso piso y me gustaría ofrecer algunos muebles al nuevo inquilino. Puedes quedarte con ellos con un gran descuento antes de que los ponga a la venta. Si te interesa, avísame antes del 10 de octubre 😊"
+  },
+  "signature": { "name": "Alex", "phone": "+1 555 0100", "whatsapp": "+1 555 0100" },
+  "makeYourOwn": "https://github.com/tumaranja/furniture-sale#make-your-own",
+
+  "items": [
+    {
+      "id": "white",
+      "title": { "en": "White wardrobe", "es": "Armario blanco" },
+      "subtitle": { "en": "Wardrobe frame + custom doors", "es": "Estructura de armario + puertas a medida" },
+      "bought": { "en": "Dec 2024", "es": "dic. 2024" },
+      "condition": { "en": "like new", "es": "como nuevo" },
+      "photos": [
+        { "src": "example/photos/white-closed.jpg", "alt": "White floor-to-ceiling wardrobe with two tall doors, closed" },
+        { "src": "example/photos/white-open.jpg", "alt": "The same wardrobe opened, showing shelves and a pull-out basket" },
+        { "src": "example/photos/white-knobs.jpg", "alt": "Close-up of the two brushed-metal knobs" }
+      ],
+      "parts": [
+        { "name": { "en": "Custom doors, 250×50 cm", "es": "Puertas a medida, 250×50 cm" }, "qty": 2, "original": 287, "price": 250,
+          "link": "#",
+          "info": [
+            { "label": { "en": "Color", "es": "Color" }, "text": { "en": "Matte white", "es": "Blanco mate" } },
+            { "label": { "en": "Height", "es": "Altura" }, "text": { "en": "Floor-to-ceiling doors like these are no longer made. The tallest sold today are 236 cm.", "es": "Ya no se fabrican puertas de suelo a techo como estas. Las más altas que se venden hoy miden 236 cm." } }
+          ] },
+        { "name": { "en": "Hinges, 4-pack", "es": "Bisagras, pack de 4" }, "qty": 2, "original": 30, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Knob", "es": "Pomo" }, "qty": 2, "original": 19, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Wardrobe frame, 50×35×201 cm", "es": "Estructura de armario, 50×35×201 cm" }, "qty": 2, "original": 65, "price": 65,
+          "link": "#" },
+        { "name": { "en": "Shelf, 50×35 cm", "es": "Estante, 50×35 cm" }, "qty": 5, "original": 7, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Shoe shelf, 50×35 cm", "es": "Estante para zapatos, 50×35 cm" }, "qty": 3, "original": 15, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Clothes rail, 50 cm", "es": "Barra para ropa, 50 cm" }, "original": 5, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Pull-out mesh basket, 100×35 cm", "es": "Cesta de malla extraíble, 100×35 cm" }, "original": 20, "price": 0,
+          "link": "#" }
+      ]
+    },
+    {
+      "id": "green75",
+      "title": { "en": "Green wardrobe, 75 cm", "es": "Armario verde, 75 cm" },
+      "subtitle": { "en": "Wardrobe frame + custom doors and side panel", "es": "Estructura de armario + puertas y panel lateral a medida" },
+      "bought": { "en": "Oct 2023", "es": "oct. 2023" },
+      "condition": { "en": "excellent", "es": "excelente" },
+      "photos": [
+        { "src": "example/photos/green-75.jpg", "alt": "Grey-green wardrobe with two doors next to a sliding-door closet" }
+      ],
+      "parts": [
+        { "name": { "en": "Custom doors, 200×37.5 cm", "es": "Puertas a medida, 200×37,5 cm" }, "qty": 2, "original": 218, "price": 100,
+          "link": "#",
+          "info": [ { "label": { "en": "Color", "es": "Color" }, "text": { "en": "Muted sage green", "es": "Verde salvia apagado" } } ] },
+        { "name": { "en": "Hinges, 3-pack", "es": "Bisagras, pack de 3" }, "qty": 2, "original": 25, "price": 0,
+          "link": "#" },
+        { "name": { "en": "T-knob", "es": "Pomo en T" }, "qty": 2, "original": 12, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Custom side panel, 200×35 cm", "es": "Panel lateral a medida, 200×35 cm" }, "original": 187, "price": 50,
+          "link": "#",
+          "info": [ { "label": { "en": "Color", "es": "Color" }, "text": { "en": "Muted sage green", "es": "Verde salvia apagado" } } ] },
+        { "name": { "en": "Wardrobe frame, 236×75×35 cm", "es": "Estructura de armario, 236×75×35 cm" }, "original": 75, "price": 20,
+          "link": "#" },
+        { "name": { "en": "Shelf, 75×35 cm", "es": "Estante, 75×35 cm" }, "original": 10, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Clothes rail, 75 cm", "es": "Barra para ropa, 75 cm" }, "original": 10, "price": 0,
+          "link": "#" }
+      ]
+    },
+    {
+      "id": "green100",
+      "title": { "en": "Green wardrobe, 100 cm", "es": "Armario verde, 100 cm" },
+      "subtitle": { "en": "Wardrobe frame + custom doors and side panel", "es": "Estructura de armario + puertas y panel lateral a medida" },
+      "bought": { "en": "Oct 2023", "es": "oct. 2023" },
+      "condition": { "en": "excellent", "es": "excelente" },
+      "photos": [
+        { "src": "example/photos/green-100.jpg", "alt": "Grey-green wardrobe doors and side panel by the front door" }
+      ],
+      "parts": [
+        { "name": { "en": "Custom doors, 200×50 cm", "es": "Puertas a medida, 200×50 cm" }, "qty": 2, "original": 250, "price": 120,
+          "link": "#",
+          "info": [ { "label": { "en": "Color", "es": "Color" }, "text": { "en": "Muted sage green", "es": "Verde salvia apagado" } } ] },
+        { "name": { "en": "T-knob", "es": "Pomo en T" }, "qty": 2, "original": 12, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Custom side panel, extra deep", "es": "Panel lateral a medida, extraprofundo" }, "original": 187, "price": 10,
+          "link": "#",
+          "info": [
+            { "label": { "en": "Color", "es": "Color" }, "text": { "en": "Muted sage green", "es": "Verde salvia apagado" } },
+            { "label": { "en": "Depth", "es": "Profundidad" }, "text": { "en": "Made deeper than the frame so that both green wardrobes line up at the front. It's a custom depth that only fits this spot, which is why it's offered at a symbolic price.", "es": "Es más profundo que la estructura para que los dos armarios verdes queden alineados por delante. Es una profundidad a medida que solo encaja en este hueco; por eso se ofrece a un precio simbólico." } }
+          ] },
+        { "name": { "en": "Wardrobe frame, 50×35×201 cm", "es": "Estructura de armario, 50×35×201 cm" }, "qty": 2, "original": 65, "price": 65,
+          "link": "#" },
+        { "name": { "en": "Shelf, 50×35 cm", "es": "Estante, 50×35 cm" }, "qty": 5, "original": 7, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Shoe shelf, 50×35 cm", "es": "Estante para zapatos, 50×35 cm" }, "qty": 3, "original": 15, "price": 0,
+          "link": "#" },
+        { "name": { "en": "Clothes rail, 50 cm", "es": "Barra para ropa, 50 cm" }, "original": 5, "price": 0,
+          "link": "#" }
+      ]
+    },
+    {
+      "id": "stool",
+      "title": { "en": "Wall-mounted folding stool", "es": "Taburete plegable de pared" },
+      "bought": "2024",
+      "condition": { "en": "excellent", "es": "excelente" },
+      "photos": [
+        { "src": "example/photos/stool-folded.jpg", "alt": "White slatted stool folded flat against the wall" },
+        { "src": "example/photos/stool-open.jpg", "alt": "The same stool folded down, ready to sit on" }
+      ],
+      "parts": [
+        { "name": { "en": "Wall-mounted folding shoe stool", "es": "Taburete zapatero plegable de pared" }, "original": 98, "price": 0,
+          "link": "#" }
+      ],
+      "note": { "en": "Solid wood stool fixed to the wall so it saves space. It holds up to 150 kg, and folds flat when not in use. A small part has come off, but it isn't visible and doesn't affect use.", "es": "Taburete de madera maciza fijado a la pared, así que ahorra espacio. Aguanta hasta 150 kg y se pliega cuando no se usa. Se ha soltado una pieza pequeña, pero no se ve y no afecta al uso." }
+    },
+    {
+      "id": "wallpaper",
+      "title": { "en": "Floral wallpaper", "es": "Papel pintado floral" },
+      "installed": "2024",
+      "condition": { "en": "excellent", "es": "excelente" },
+      "photos": [
+        { "src": "example/photos/wallpaper.jpg", "alt": "Grey floral wallpaper in the hallway" }
+      ],
+      "parts": [
+        { "name": { "en": "Floral wallpaper roll", "es": "Rollo de papel pintado floral" }, "qty": 2, "original": 143, "price": 0,
+          "link": "#" }
+      ],
+      "note": { "en": "The wallpaper covers the whole entry, except behind the wardrobes. There is a small tear on one wall that isn't visible because of the wallpaper's texture.", "es": "El papel pintado cubre toda la entrada, salvo detrás de los armarios. Hay un pequeño desgarro en una pared que no se ve gracias a la textura del papel." }
+    },
+    {
+      "id": "bed",
+      "title": { "en": "Sofa bed with storage", "es": "Sofá cama con almacenaje" },
+      "bought": { "en": "May 2026", "es": "may. 2026" },
+      "condition": { "en": "excellent", "es": "excelente" },
+      "photos": [
+        { "src": "example/photos/bed-front.jpg", "alt": "Sofa bed from the front, styled with cushions and a throw" },
+        { "src": "example/photos/bed-side.jpg", "alt": "Sofa bed from the side, showing the L-shaped backrest" },
+        { "src": "example/photos/bed-open.jpg", "alt": "Sofa bed with the mattress lifted open, showing the storage space" }
+      ],
+      "parts": [
+        { "name": { "en": "Sofa bed with storage, 100×200 cm", "es": "Sofá cama con almacenaje, 100×200 cm" }, "original": 789, "price": 200,
+          "link": "#",
+          "info": [
+            { "label": { "en": "Fabric", "es": "Tela" }, "text": "Pebble 04" },
+            { "label": { "en": "Model", "es": "Modelo" }, "text": { "en": "Left side", "es": "Lado izquierdo" } }
+          ] }
+      ],
+      "note": { "en": "The original price included a thin topper mattress, which is not part of this sale.", "es": "El precio original incluía un topper fino, que no forma parte de esta venta." }
+    },
+    {
+      "id": "tv",
+      "title": { "en": "Smart TV / monitor + wall arm", "es": "Smart TV / monitor + brazo de pared" },
+      "bought": { "en": "Nov 2022", "es": "nov. 2022" },
+      "condition": { "en": "excellent", "es": "excelente" },
+      "originalLabel": { "en": "Used price now", "es": "Precio de segunda mano hoy" },
+      "photos": [
+        { "src": "example/photos/tv-front.jpg", "alt": "Screen mounted flat on the wall above a white sideboard" },
+        { "src": "example/photos/tv-arm.jpg", "alt": "Screen on a full-motion wall arm, pulled out from the wall" }
+      ],
+      "parts": [
+        { "name": { "en": "Smart monitor / TV, 32\" (2022)", "es": "Monitor inteligente / TV, 32\" (2022)" }, "original": 100, "price": 50,
+          "link": "#",
+          "info": { "en": "Includes the original remote.", "es": "Incluye el mando original." } },
+        { "name": { "en": "Full-motion wall arm", "es": "Brazo de pared articulado" }, "original": 30, "price": 10,
+          "link": "#" }
+      ],
+      "note": { "en": "You can also buy these separately.", "es": "También puedes comprarlos por separado." }
+    }
+  ]
+}
